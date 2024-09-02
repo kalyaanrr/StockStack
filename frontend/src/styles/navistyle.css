@@ -1,0 +1,57 @@
+/* Styles for the navigation bar container */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300;1,300..900&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+
+}
+.navibar {
+    background-color: rgb(250, 250, 250);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+#ssn{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Styles for the unordered list */
+.navibar ul {
+    list-style-type:none ;
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the list items */
+.navibar ul li {
+    padding: 14px 20px;
+    font-weight: bold;
+}
+
+/* Styles for the links */
+.navibar ul li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+/* Hover effect for the links */
+.navibar ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+  
+  .Landing { 
+    margin: 50px auto;
+    width: 90%;
+    font-family: "Rubik", sans-serif;
+    background-color: #ffffffd3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Header: Logo and Get Started Button */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logoimg{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  
+  .logo-text {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  /* Get Started Button at the Top Right */
+  
+  
+  .get-started-button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fe9e0d;
+    font-size: 30px;
+    color: #fe9e0d;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    transition: 0.3s;
+  }
+  
+  .get-started-button:hover {
+    color: #e48f0f;
+    border-bottom: 2px solid #e48f0f;
+  }
+  
+ 
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .description-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .app-description {
+    font-size: clamp(2rem, 4vw, 4rem);
+    color: #4c4c4c;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .app-details {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: #6a6a6a;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .app-image {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+  }

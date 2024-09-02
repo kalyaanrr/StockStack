@@ -1,0 +1,100 @@
+
+.table-container {
+  margin: 50px auto;
+  width: 90%;
+  padding: 20px;
+  max-width: 1000px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffffd3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+body{
+  background-image: url("frontend/src/components/backgroundhome.jpg");
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#linkitem{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+hr{
+  margin-top: 40px;
+  width: 90%;
+}
+thead {
+  background-color: rgb(189, 187, 187);
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+thead th {
+  padding: 15px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+
+/* Row hover effect */
+tbody tr {
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2; /* Slightly darkens the row on hover */
+}
+
+tbody td:last-child {
+  text-align: center;
+}
+
+/* Edit link and delete button styling */
+.edit-link, .delete-button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.edit-link {
+  background-color: #4CAF50; /* Green */
+}
+
+.delete-button {
+  background-color: #f44336; 
+  font-size: 18px;
+}
+
+button {
+  font-size: 18px;
+  width: 150px;
+  height: 55px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Center content in cells */
+tbody td:last-child {
+  text-align: center;
+}
